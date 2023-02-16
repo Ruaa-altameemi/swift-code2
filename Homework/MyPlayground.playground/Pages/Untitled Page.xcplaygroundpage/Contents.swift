@@ -116,19 +116,8 @@ func dabsolutedifference(A: Int) -> Int {
      }
 }
 
-print(dabsolutedifference(A: 45))
-print(dabsolutedifference(A: 61))
-print(dabsolutedifference(A: 21))
-
-
-
-
-
-
-
-
-
-
+print(dabsolutedifference(A: 55))
+print(dabsolutedifference(A: 26))
 
 
 
