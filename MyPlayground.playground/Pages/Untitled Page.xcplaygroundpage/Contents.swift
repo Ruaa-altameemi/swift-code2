@@ -103,6 +103,23 @@ func sum(_ arra: [Int]) -> Int {
 print(sum([6, 7, 8, 2]))
 
 
+//EX26
+
+func dabsolutedifference(A: Int) -> Int {
+    if A > 51
+     {
+        return (A - 51) * 2
+     }
+    else
+     {
+        return 51 - A
+     }
+}
+
+print(dabsolutedifference(A: 45))
+print(dabsolutedifference(A: 61))
+print(dabsolutedifference(A: 21))
+
 
 
 
