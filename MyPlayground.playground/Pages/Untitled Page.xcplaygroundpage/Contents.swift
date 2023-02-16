@@ -52,10 +52,79 @@ print(hockey.3)
 
 //EX16
 
-let hockyName = ("Jeff", "Ross")
-let hockyNum = (33, 54)
-print(hockyName.0)
-print(hockyNum)
+let hockey1 = ("Jeff", 99)
+
+print("Original Tuple: ")
+
+// access tuple elements
+print("Name:", hockey1.0)
+print("Price:", hockey1.1)
+
+//EX21
+func triplesum(num1: Int, num2: Int) -> Int {
+    if num1 == num2
+     {
+        return (num1 + num2) * 3
+     }
+     else
+     {
+        return num1 + num2
+     }
+ }
+
+print(triplesum(num1: 32, num2: 32))
+print(triplesum(num1: 22, num2: 23))
+print(triplesum(num1: 43, num2: 55))
+//Ex23
+import Swift
+  
+var newarray = [11,22,33,44,55]
+  
+print("Array before reversing:", newarray)
+ 
+newarray.reversed()
+  
+print("Array after reversing:", newarray)
+
+//EX24
+func rotateleft(_ arra: [Int]) -> [Int] {
+    var arra1 = arra
+    arra1.removeFirst()
+    arra1.append(arra.first!)
+         return arra1
+   }
+
+   print(rotateleft([1, 2, 3]))
+//EX25
+
+func sum(_ arra: [Int]) -> Int {
+    return arra.reduce(0, +)
+}
+print(sum([6, 7, 8, 2]))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// example day 8
+class playgroundwithInitparams {
+    var area1 : Double = 0.0
+    var area2 : Double = 0.0
+    
+    func Init(area1 : Double, area2 : Double) {
+        self.area1 = area1 // parameter
+        self.area2 = area2 // parameter
+    }
+}
 
 
 
